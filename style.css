@@ -1,0 +1,376 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    
+}
+/* navbar */
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #4D636F;
+    display: flex;
+    align-items: center;
+}
+.header a{
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.profile{
+    right: 0;
+    position: absolute;
+}
+.profile a img{
+    border-radius: 100%;
+
+}
+/* profile card  */
+.card {
+    margin-top: 6px;
+    width: 300px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+ }
+ .cardheader{
+    text-align: center;
+} 
+.card .lines{
+    margin-left: 5px;
+    padding: 4px;
+} 
+
+.card p{
+   margin-left: 0;
+    padding: 5px;
+} 
+.card img{
+    border-radius: 100%;
+}
+.card hr{
+    width: 80%;
+    color: rgb(231, 231, 231);
+}  
+
+/* intrests */
+.interst{
+    margin-top: 25px;
+    margin-left:20px ;
+    width: 300px;
+    height: auto;
+    background-color: #062333;
+    
+}
+.interst button{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: #7d97a5;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+  
+}
+.interst button:hover{
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+/* post  */
+
+div.post{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 25px;
+    width: 600px;
+    height: 170px;
+    margin-top:6px ;
+    
+}
+div .post .inpu{
+    width: 90%;
+    margin-left: 18px;
+    height: 30px;
+    border-radius: 4px;
+}
+div .post button{
+    margin-left: 18px;
+    background-color: #7d97a5;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+div .post button:hover{
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+/* posts  */
+
+div.posts{
+    position: absolute;
+    left: 322px;
+    top: 250px;
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 25px;
+    height: 490px;
+    margin-top:3px ;
+}
+div.posts .imname h2{
+    position: absolute;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+div.posts .imname img{
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+div.posts hr{
+    width: 95%;
+    color: rgb(231, 231, 231);
+}
+div.posts div.postpara {
+   display: flex;
+   margin-left: 6px;
+   
+}
+div.posts div.postpara img{
+    padding:6px ;
+}
+div.posts div.postbtns{
+    margin-left: 9px;
+    margin-top: 15px;
+    padding: 6px;
+    
+}
+div.posts div.postbtns button{
+    width: auto;
+    height: 30px;
+    padding: 6px;
+    margin: 2px;
+    font-size: 13px;
+    background-color: #7d97a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+div.posts div.postbtns button:hover{
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+
+/* posts2 */
+
+
+
+div.posts1{
+    position: absolute;
+    left: 322px;
+    top: 760px;
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 25px;
+    height: 240px;
+    margin-top:3px ;
+    padding-bottom: 4px;
+}
+div.posts1 .imname img{
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+div.posts1 .imname h2{
+    position: absolute;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+div.posts1 hr{
+    width: 95%;
+    color: rgb(231, 231, 231);
+}
+div.posts1 div.postpara {
+   display: flex;
+   margin-left: 6px;
+   
+}
+
+div.posts1 div.postbtns{
+    margin-left: 9px;
+    margin-top: 15px;
+    padding: 6px;
+    
+}
+div.posts1 div.postbtns button{
+    width: auto;
+    height: 30px;
+    padding: 6px;
+    margin: 2px;
+    font-size: 13px;
+    background-color: #7d97a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+div.posts1 div.postbtns button:hover{
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+ 
+/* post3  */
+
+
+div.posts3{
+    position: absolute;
+    left: 322px;
+    top: 1020px;
+    bottom: 5px;
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 25px;
+    height: 530px;
+    padding-bottom:6px ;
+}
+div.posts3 .imname h2{
+    position: absolute;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+div.posts3 .imname img{
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+div.posts3 hr{
+    width: 95%;
+    color: rgb(231, 231, 231);
+}
+div.posts3 div.postpara {
+  
+   margin-left: 28px;
+   
+}
+
+div.posts3 div.postbtns{
+    margin-left: 9px;
+    margin-top: 15px;
+    padding: 6px;
+    
+}
+div.posts3 div.postbtns button{
+    width: auto;
+    height: 30px;
+    padding: 6px;
+    margin: 2px;
+    font-size: 13px;
+    background-color: #7d97a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+div.posts3 div.postbtns button:hover{
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+/* events  */
+
+div.events{
+    position: absolute;
+    right:  20px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 350px;
+    
+}
+div.events button{
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    background-color: #7d97a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+div.events button:hover{
+    background-color: rgb(187, 187, 187);
+    color: black;
+
+}
+
+/* requests  */
+div.requests{
+    position: absolute;
+    right:  20px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 330px;
+    top: 430px;
+    
+}
+div.requests button{
+    width: 40%;
+    height: 40px;
+    padding: 5px;
+    background-color: #7d97a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 15px;
+}
+div.requests button:hover{
+    background-color: rgb(187, 187, 187);
+    color: black;
+
+}
+
+/* ads  */
+
+div.ads{
+    position: absolute;
+    right:  20px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 130px;
+    top: 780px;
+    
+}
+div.ads h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* extras  */
+
+div.bug{
+        position: absolute;
+        right:  20px; 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 250px;
+        height: 130px;
+        top: 930px;
+        
+    
+}
+div.bug p{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
